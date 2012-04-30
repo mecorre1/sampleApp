@@ -1,4 +1,8 @@
 SampleApp2::Application.routes.draw do
+  get "static_pags_house/home"
+
+  get "static_pags_house/help"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
